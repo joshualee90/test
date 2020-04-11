@@ -1,0 +1,343 @@
+.button3 {
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 600;
+    background-color: transparent;
+    color: white;
+    padding: 8px 16px;
+    transition-duration: 0.2s;
+    border: none;
+}
+
+.button3:hover {
+    color: #00D3A7;
+}
+
+.button1 {
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+    background-color: #00D3A7;
+    padding: 8px 16px;
+    border: 1px solid #00D3A7;
+    border-radius: 5px;
+    transition-duration: 0.2s;
+}
+
+.button1:hover {
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+
+.button2 {
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+    background-color: transparent;
+    padding: 8px 16px;
+    border: 1px solid white;
+    border-radius: 5px;
+    transition-duration: 0.2s;
+}
+
+.button2:hover {
+    background-color: #00D3A7;
+    border: 1px solid #00D3A7;
+}
+
+.buttonLogo {
+    font-family: lalezar;
+    font-size: 36px;
+    font-weight: 400px;
+    color: white;
+    background-color: transparent;
+    border: none;
+    margin: 8px 16px;
+}
+
+.header-container {
+    display: flex;
+    height: 80px;
+    background-color: transparent;
+    align-items: center;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    padding-top: 8px;
+    -webkit-transition: all ease-out .5s;
+    -moz-transition: all ease-out .5s;
+    -o-transition: all ease-out .5s;
+    transition: all ease-out .5s;
+}
+
+.active {
+    background-color: white;
+}
+
+#logo-container {
+    padding-left: 20x;
+    padding-top: 16px;
+}
+
+#filler {
+    flex-grow: 1;
+}
+
+#button-container {
+    padding-right: 40px;
+    padding-top: 16px;
+    justify-content: flex-end;
+}
+
+.heroimage {
+    background-image: linear-gradient(rgba(38, 63, 123, 0.5), rgba(0, 0, 0, 0.5)), url('https://codetheweb.blog/assets/img/posts/full-image-hero/image.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 80%;
+}
+
+.herotext {
+    display: flex;
+    flex-direction: column;
+    padding-top: 18%;
+    margin-left: 20%;
+    margin-right: 15%;
+}
+
+footer {
+    background-color: #0F1A33;
+    color: white;
+    width: 100%;
+    height: 400px;
+    margin-top: -40px;
+}
+
+header {
+    width: 100%;
+}
+
+body {
+    margin: 0;
+    width: 100%;
+}
+
+#companies {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: ". mag ." ". desc .";
+    justify-items: center;
+}
+
+#mag {
+    grid-area: mag;
+}
+
+#desc {
+    grid-area: desc;
+}
+
+#features {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+h1 {
+    font-family: lato;
+    font-size: 32px;
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+
+h2 {
+    font-family: lato;
+    font-size: 24px;
+    font-weight: 200;
+    margin-top: 8px;
+}
+
+.herobtn {
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+    background-color: #00D3A7;
+    padding: 8px 16px;
+    border: 1px solid #00D3A7;
+    border-radius: 5px;
+    transition-duration: 0.2s;
+    width: 240px;
+}
+
+.herobtn:hover {
+    background-color: transparent;
+    border: 1px solid white;
+}
+
+p {
+    font-family: lato;
+    font-size: 16px;
+    line-height: 1.5rem;
+}
+
+div {
+    margin-bottom: 40px;
+}
+
+.tabs {
+    display: flex;
+    margin-top: 40px;
+    background-color: white;
+    overflow: hidden;
+    border-bottom: 2px thin grey;
+    justify-content: space-evenly;
+    flex-wrap: nowrap;
+    align-items: flex-end;
+}
+
+.tabs a {
+    float: left;
+    display: block;
+    color: #878C99;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: lato;
+    font-size: 20px;
+    font-weight: 600;
+    border-bottom: 2px solid transparent;
+    transition-duration: 0.2s;
+    flex-grow: 1;
+    max-width: 25%;
+}
+
+.tabs a:hover {
+    border-bottom: 2px solid #00D3A7;
+    color: black;
+}
+
+.highlight {
+    margin-top: 80px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    justify-content: space-evenly;
+}
+
+.highlight img {
+    max-width: 90%;
+    box-shadow: 2px 2px 8px #ccc;
+    -moz-box-shadow: 2px 2px 8px #ccc;
+    -webkit-box-shadow: 2px 2px 8px #ccc;
+    -khtml-box-shadow: 2px 2px 8px #ccc;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 24px;
+}
+
+.button4 {
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+    background-color: #00D3A7;
+    padding: 8px 16px;
+    border: 1px solid #00D3A7;
+    border-radius: 5px;
+    transition-duration: 0.2s;
+}
+
+.button4:hover {
+    background-color: transparent;
+    border: 1px solid #263F7B;
+    border-radius: 5px;
+    color: #263F7B;
+}
+
+.btnicon {
+    font-family: lato;
+    font-size: 16px;
+    font-weight: 400;
+    color: #263F7B;
+    border: none;
+    padding: 8px 16px;
+    background-color: transparent;
+    transition-duration: 0.2s;
+}
+
+.btnicon:hover {
+    font-weight: 600;
+}
+
+#press {
+    display: flex;
+    justify-content: space-evenly;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.presscard {
+    display: flex;
+    flex-direction: column;
+    padding: 16px
+}
+
+h3 {
+    font-family: lato;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 1.5rem;
+}
+
+.imgbtn {
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 300px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 2px 2px 8px #ccc;
+    -moz-box-shadow: 2px 2px 8px #ccc;
+    -webkit-box-shadow: 2px 2px 8px #ccc;
+    -khtml-box-shadow: 2px 2px 8px #ccc;
+}
+
+.imgbtn:hover {
+    background-image: linear-gradient(rgba(38, 63, 123, 0.5), rgba(0, 0, 0, 0.5))
+}
+
+#finalcta {
+    background: rgb(13, 13, 93);
+    background: linear-gradient(326deg, rgba(13, 13, 93, 1) 0%, rgba(132, 232, 212, 1) 100%);
+    height: 60%;
+    background-size: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: -240px;
+}
+
+.diagonal {
+    width: 0;
+    height: 0;
+    border-top: 0px solid transparent;
+    border-left: 100vw solid white;
+    border-bottom: 200px solid transparent;
+    -webkit-filter: drop-shadow(4px 32px 16px rgba(0, 0, 0, .2));
+    filter: drop-shadow(4px 32px 16px rgba(0, 0, 0, .2));
+}
